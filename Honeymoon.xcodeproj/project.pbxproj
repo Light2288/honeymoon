@@ -11,6 +11,14 @@
 		6B88517C28CA4B9E002C32C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B88517B28CA4B9E002C32C8 /* ContentView.swift */; };
 		6B88517E28CA4BA6002C32C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B88517D28CA4BA6002C32C8 /* Assets.xcassets */; };
 		6B88518128CA4BA6002C32C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B88518028CA4BA6002C32C8 /* Preview Assets.xcassets */; };
+		6BA7D1AD28CA8935005F0FF4 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 6BA7D1AC28CA8935005F0FF4 /* Sounds */; };
+		6BA7D1B028CA8B02005F0FF4 /* HoneymoonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA7D1AF28CA8B02005F0FF4 /* HoneymoonModel.swift */; };
+		6BA7D1B328CA8B5D005F0FF4 /* HoneymoonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA7D1B228CA8B5D005F0FF4 /* HoneymoonData.swift */; };
+		6BA7D1B728CA8BEB005F0FF4 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA7D1B628CA8BEB005F0FF4 /* CardView.swift */; };
+		6BA7D1B928CA90E8005F0FF4 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA7D1B828CA90E8005F0FF4 /* HeaderView.swift */; };
+		6BA7D1BB28CA91F7005F0FF4 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA7D1BA28CA91F7005F0FF4 /* FooterView.swift */; };
+		6BA7D1BE28CA9337005F0FF4 /* HeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA7D1BD28CA9337005F0FF4 /* HeaderComponent.swift */; };
+		6BA7D1C028CA9D24005F0FF4 /* GuideComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA7D1BF28CA9D24005F0FF4 /* GuideComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,15 @@
 		6B88517B28CA4B9E002C32C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6B88517D28CA4BA6002C32C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B88518028CA4BA6002C32C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6BA7D1AC28CA8935005F0FF4 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		6BA7D1AE28CA8997005F0FF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6BA7D1AF28CA8B02005F0FF4 /* HoneymoonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonModel.swift; sourceTree = "<group>"; };
+		6BA7D1B228CA8B5D005F0FF4 /* HoneymoonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonData.swift; sourceTree = "<group>"; };
+		6BA7D1B628CA8BEB005F0FF4 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		6BA7D1B828CA90E8005F0FF4 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		6BA7D1BA28CA91F7005F0FF4 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		6BA7D1BD28CA9337005F0FF4 /* HeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderComponent.swift; sourceTree = "<group>"; };
+		6BA7D1BF28CA9D24005F0FF4 /* GuideComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +68,13 @@
 		6B88517828CA4B9E002C32C8 /* Honeymoon */ = {
 			isa = PBXGroup;
 			children = (
+				6BA7D1BC28CA931C005F0FF4 /* Component */,
+				6BA7D1AE28CA8997005F0FF4 /* Info.plist */,
+				6BA7D1B128CA8B0F005F0FF4 /* Model */,
+				6BA7D1B528CA8BB1005F0FF4 /* View */,
+				6BA7D1B428CA8B62005F0FF4 /* Data */,
+				6BA7D1AC28CA8935005F0FF4 /* Sounds */,
 				6B88517928CA4B9E002C32C8 /* HoneymoonApp.swift */,
-				6B88517B28CA4B9E002C32C8 /* ContentView.swift */,
 				6B88517D28CA4BA6002C32C8 /* Assets.xcassets */,
 				6B88517F28CA4BA6002C32C8 /* Preview Content */,
 			);
@@ -65,6 +87,42 @@
 				6B88518028CA4BA6002C32C8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6BA7D1B128CA8B0F005F0FF4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6BA7D1AF28CA8B02005F0FF4 /* HoneymoonModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6BA7D1B428CA8B62005F0FF4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6BA7D1B228CA8B5D005F0FF4 /* HoneymoonData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6BA7D1B528CA8BB1005F0FF4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B88517B28CA4B9E002C32C8 /* ContentView.swift */,
+				6BA7D1B628CA8BEB005F0FF4 /* CardView.swift */,
+				6BA7D1B828CA90E8005F0FF4 /* HeaderView.swift */,
+				6BA7D1BA28CA91F7005F0FF4 /* FooterView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6BA7D1BC28CA931C005F0FF4 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				6BA7D1BD28CA9337005F0FF4 /* HeaderComponent.swift */,
+				6BA7D1BF28CA9D24005F0FF4 /* GuideComponent.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BA7D1AD28CA8935005F0FF4 /* Sounds in Resources */,
 				6B88518128CA4BA6002C32C8 /* Preview Assets.xcassets in Resources */,
 				6B88517E28CA4BA6002C32C8 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +196,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BA7D1B328CA8B5D005F0FF4 /* HoneymoonData.swift in Sources */,
+				6BA7D1BB28CA91F7005F0FF4 /* FooterView.swift in Sources */,
+				6BA7D1B928CA90E8005F0FF4 /* HeaderView.swift in Sources */,
+				6BA7D1B028CA8B02005F0FF4 /* HoneymoonModel.swift in Sources */,
+				6BA7D1BE28CA9337005F0FF4 /* HeaderComponent.swift in Sources */,
 				6B88517C28CA4B9E002C32C8 /* ContentView.swift in Sources */,
 				6B88517A28CA4B9E002C32C8 /* HoneymoonApp.swift in Sources */,
+				6BA7D1B728CA8BEB005F0FF4 /* CardView.swift in Sources */,
+				6BA7D1C028CA9D24005F0FF4 /* GuideComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +336,9 @@
 				DEVELOPMENT_TEAM = R36C94X925;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Honeymoon/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,9 +365,9 @@
 				DEVELOPMENT_TEAM = R36C94X925;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Honeymoon/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
